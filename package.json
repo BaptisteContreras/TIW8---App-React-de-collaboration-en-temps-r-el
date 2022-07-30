@@ -1,0 +1,57 @@
+{
+  "name": "tiw8",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "webpack --mode production",
+    "dev": "webpack serve --content-base client/ --mode development --watch",
+    "lint": "eslint --fix \"./**/*.js\" \"./**/*.jsx\" --ignore-pattern node_modules/ --ignore-pattern dist/",
+    "test": "echo \"Error: pas de tests pour le moment\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://forge.univ-lyon1.fr/p1601511/tiw8-tp1"
+  },
+  "author": "p1601511",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "OneDollar.js": "2.0.0",
+    "express": "^4.17.1",
+    "material-ui-color": "^0.4.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.0",
+    "react-device-detect": "^1.14.0",
+    "react-dom": "^16.8.0",
+    "react-redux": "^7.2.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "socket.io": "^3.0.1",
+    "socket.io-client": "^3.0.1",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/eslint-parser": "^7.12.1",
+    "@babel/eslint-plugin": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "material-ui-popup-state": "^1.5.4",
+    "styled-components": "^5.1.1",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0",
+    "html-webpack-plugin": "^4.5.0"
+  }
+}
